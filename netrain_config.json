@@ -1,0 +1,16 @@
+{
+    "server_addr": "server.zeyu.tw",
+    "server_port": 19000,
+    "inner_hosts": [
+        {
+            "local_port": 2345,
+            "exposed_port": 19005
+        },
+        {
+            "local_port": 2346,
+            "exposed_port": 19006
+        }
+    ],
+    "cert_path": "certs.pem",
+    "key_path": "keys.pem"
+}
