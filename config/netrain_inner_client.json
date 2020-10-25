@@ -1,6 +1,5 @@
 {
-    "server_addr": "server.zeyu.tw",
-    "server_port": 19000,
+    "mode": "inner_client",
     "inner_hosts": [
         {
             "local_port": 2345,
@@ -11,6 +10,5 @@
             "exposed_port": 19006
         }
     ],
-    "cert_path": "certs.pem",
-    "key_path": "keys.pem"
+    "cafile_path": "cafile.pem"
 }

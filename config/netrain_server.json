@@ -1,0 +1,7 @@
+{
+    "mode": "server",
+    "server_addr": "server.zeyu.tw",
+    "server_port": 19000,
+    "cert_path": "certs.pem",
+    "key_path": "keys.pem"
+}
